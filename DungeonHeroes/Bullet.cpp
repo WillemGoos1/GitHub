@@ -21,7 +21,7 @@ Bullet::Bullet(const Point2f& startPos, float angle, const Origin& o, float spee
 	{
 		m_AlternateBullet = make_unique<Texture>("Resources/bullet_level2.png");
 	}
-
+	
 }
 void Bullet::Update(float elapsedSec)
 {
